@@ -63,16 +63,6 @@ body {
 }
 
 
-/* A few selectors from bootstrap css included mainly for nice looking badge counts on links page */
-* { box-sizing: border-box; }
-::before, ::after { box-sizing: border-box; }
-.badge { display: inline-block; min-width: 10px; padding: 3px 7px; font-size: 12px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: middle; border-radius: 10px; background-color: rgb(119, 119, 119); }
-.badge:empty { display: none; }
-
-.newlink { display: inline-block; min-width: 10px; padding: 3px 7px; font-size: 12px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: middle; border-radius: 10px; background-color: rgb(244, 137, 66); }
-.newlink:empty { display: none; }
-
-
 #box, #lessons_left, #home_left, #links_left {
   float: left;
   font-weight: 200;
@@ -86,70 +76,9 @@ body {
 	margin-top: 0.75em;
 }
 
-#lessons_right, #home_right, #links_right, #missing_page_right {
-  padding: 20px;
-  overflow:hidden;
-  box-sizing: border-box;
-  font-weight: 300;
-}
-
-#missing_page_right{
-	float:right;
-}
-
-#links_left {
-	width: 60%;
-}
 
 #box {
 	width: 100%;
-}
-
-
-#links_right {
-	padding: 10px;
-	padding-top: 0;
-}
-
-
-#links_right h3 {
-	font-size: 1.3em;
-	font-weight: 600;
-	margin-bottom: 3px;
-}
-
-#links_right a:hover {
-	    text-decoration: none;
-}
-
-#links_collapse_expand {
-	font-size: 1em;	
-	margin-bottom: 0.5em;
-}
-
-#links_collapse_expand a:visited {
-	text-decoration: none;
-}
-
-#links_collapse_expand a {
-	color:#337ab7;
-
-	}
-	
-#links_collapse_expand a:hover	{
-		color:#23527c;
-		text-decoration:underline;
-	}
-
-#links_collapse_expand a:focus	{
-		outline: 0;
-		text-decoration:none;
-	}
-	
-#lessons_left ul {
-	margin: 0;
-	list-style-type: square;
-	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
 }
 
 
@@ -159,6 +88,15 @@ img {
 
 p {
 	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+.section_head {
+	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
+	font-weight: bold;
+}
+
+.emphasis {
+	font-weight: bold;	
 }
 
 h3 {
@@ -252,53 +190,11 @@ aside {
 }
 
 
-/* Description box in Gallery has rounded corners */
-.gray_box {
-	-webkit-border-radius: 3px;
-	-khtml-border-radius: 3px;	
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	background-color: #f7f7f7;
-	border: 1px solid #c1c1c1;
-	padding: 0 12px 0 12px;
-	font-family: "Droid Sans Mono", "Droid Sans", sans-serif;
-	margin-top:1em; 
-	margin-bottom:1.5em;
-	}
-
-
-div.gray_box p {
-	font-family: "Droid Sans Mono", "Droid Sans", sans-serif;
-}
-
 	
 .tab-label {
 	font-family: "Droid Sans", sans-serif;
 }
 	
-
-/* Cross before and after styles for special strikeout in Stagesmith motto */
-.cross {
-    position: relative;
-    display: inline-block;
-}
-.cross::before, .cross::after {
-    content: '';
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 50%;
-}
-.cross::before {
-    border-bottom: 4px solid #cc0000;
-    -webkit-transform: skewY(-15deg);
-    transform: skewY(-15deg);
-}
-.cross::after {
-    border-bottom: 4px solid #cc0000;
-    -webkit-transform: skewY(15deg);
-    transform: skewY(15deg);
-}
 
 
 #masthead {
@@ -315,20 +211,7 @@ div.gray_box p {
 	margin-top: 10px;
 }
 
-.ResGalleryLeft {
-	float: left;
-	text-align: right;
-	width: 50%;
-	padding-right: 5%;
-	border-right: 2px solid black;
-}
 
-.ResGalleryRight {
-	float: left;
-	text-align: left;
-	width: 50%;
-	padding-left: 5%;
-}
 
 #masthead_left{ 
 	float:left; 
@@ -368,64 +251,6 @@ h3 {
 	font-size: 1.8em;
 }
 
-#ads_column {
-	float: right; 
-	border: none; 
-	width: 40%; 
-	padding: 10px;
-}
-
-#links_column {
-	float: left; 
-	width: 60%; 
-	padding: 10px;
-}
-
-#ads_column h3 {
-	font-size: 1.3em;
-	font-weight: 600;
-	color: #000;
-	margin-bottom: 3px;
-}
-
-#ads_column a:hover {
-	    text-decoration: none;
-}
-
-
-#bio {
-	padding: 10px;	
-	-webkit-border-radius: 5px;
-	-khtml-border-radius: 5px;	
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background-color: #ffffe6;	
-	border: 1px solid #768e9d;
-	padding: 0.5em 0.75em 0.5em 0.75em;
-	margin-top:0; 
-	margin-bottom: 1.4em;
-	line-height: 1.5em;
-}
-
-#bio h3 {
-	font-size: 1.3em;
-	font-weight: 600;
-	color: #000;
-	margin-top: 5px;
-	margin-bottom: 3px;
-}
-
-#bio img {
-	-webkit-border-radius: 5px;
-	-khtml-border-radius: 5px;	
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	background-color: #ffffe6;	
-	border: 2px solid #768e9d;
-	padding: 0;
-	margin:0 0 10px 10px;
-	width: 7em;
-}
 
 .alignright { float: right; margin: 0 0 1em 1em; display: inline;}
 .alignleft { float: left; margin: 0 1em 1em 0;  display: inline;}
@@ -437,40 +262,7 @@ h3 {
 	color: #dd6d00;
 }
 
-#disclosures {
-	-webkit-border-radius: 3px;
-	-khtml-border-radius: 3px;	
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	background-color: #f5f5f0; 
-	border: 1px solid #888;
-	padding: 0px 12px 0 12px;
-	font-size: 0.75em;
-	line-height: 1.2em;
-	margin-top:1.5em; 
-	margin-bottom:2em;	
-}
 
-#grid-gallery {
-	margin-top: 0.75em;
-}
-
-figcaption p {
-	line-height: 1.2em;
-}
-
-.companion_image {
-	float: right; 
-	width: 3em;
-}
-
-.badge {
-	font-size: 0.75em;
-}
-
-div#links_right h3 { 
-  	font-size: 1.3em;
-}
 
 
 @media screen and (max-width: 78em) {

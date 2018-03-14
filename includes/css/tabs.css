@@ -1,6 +1,72 @@
 
 		/* Icons created with icomoon.io/app */
 
+
+
+
+
+.icon-therapist1 .path1:before {
+  content: "\e900";
+  color: #000;
+}
+.icon-therapist1 .path2:before {
+  content: "\e901";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-therapist1 .path3:before {
+  content: "\e902";
+  color: #5f6a71;
+  margin-left: -1em;
+}
+.icon-therapist1 .path4:before {
+  content: "\e903";
+  color: #a2a8ac;
+  margin-left: -1em;
+}
+.icon-therapist1 .path5:before {
+  content: "\e904";
+  color: #c7cbcd;
+  margin-left: -1em;
+}
+
+
+.icon-info .path1:before {
+  content: "\e905";
+  color: #000;
+}
+.icon-info .path2:before {
+  content: "\e906";
+  color: #1c1c1c;
+  margin-left: -1em;
+}
+.icon-info .path3:before {
+  content: "\e907";
+  color: #333;
+  margin-left: -1em;
+}
+.icon-info .path4:before {
+  content: "\e908";
+  color: #424242;
+  margin-left: -1em;
+}
+.icon-info .path5:before {
+  content: "\e909";
+  color: #555;
+  margin-left: -1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 		@font-face {
 		    font-family: 'icomoon';
 		    src:    url('includes/FullWidthTabs/fonts/icomoon/icomoon.eot?lciwwe');
@@ -156,7 +222,6 @@
 
 		.icon-home:before {
 			content: "\e901";
-			content: "";
 		}
 
 		.icon-lessons:before {

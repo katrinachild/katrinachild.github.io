@@ -193,6 +193,7 @@ aside {
 	
 .tab-label {
 	font-family: "Droid Sans", sans-serif;
+	font-size: 2em;
 }
 	
 
@@ -271,6 +272,11 @@ h3 {
 	}
 	#masthead {
 	margin: 0.25em 1em 0.35em 1em;
+
+	.tab-label {
+		font-family: "Droid Sans", sans-serif;
+		font-size: 1.5em;
+	}
 	
 }
 	
@@ -302,6 +308,11 @@ h3 {
 	#bio img {
 		width: 5em;
 	}
+
+	.tab-label {
+		font-family: "Droid Sans", sans-serif;
+		font-size: 1.2em;
+	}
 		
 }
 
@@ -309,6 +320,11 @@ h3 {
 
 @media screen and (max-width: 32em) {
 
+
+	.tab-label {
+		font-family: "Droid Sans", sans-serif;
+		font-size: 1em;
+	}
   
 	  .container {
 		margin: auto;

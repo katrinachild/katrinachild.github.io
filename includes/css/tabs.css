@@ -222,6 +222,7 @@
 
 		.icon-home:before {
 			content: "\e901";
+			content: "";
 		}
 
 		.icon-lessons:before {
@@ -298,7 +299,9 @@
 
 		@media screen and (max-width: 52.375em) {
 			.tabs nav a span {
+				/*
 				display: none;
+				*/
 			}
 
 			.tabs nav a:before {

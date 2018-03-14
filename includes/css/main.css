@@ -310,85 +310,52 @@ h3 {
 @media screen and (max-width: 32em) {
 
   
-  .container {
-	margin: auto;
-    padding: 0 1em 0 1em;
-	min-width: 0;
+	  .container {
+		margin: auto;
+	    padding: 0 1em 0 1em;
+		min-width: 0;
 
-}
-  
-  
-  #masthead_left{ 
-	width: 42%;
-}
-  #masthead_right{ 
-	width: 58%;
-}
-  
-  #masthead {
-	margin: 0.25em 0.5em 0.35em 0.5em;
-}
-  
-  img.logo {
-	width: 170px;
-	margin-top:0.15em;
-}
-  
-  #masthead_right h2 {
-	font-size: 1em;
-}
+	}
+	  
+	  
+	  #masthead_left{ 
+		width: 42%;
+	}
+	  #masthead_right{ 
+		width: 58%;
+	}
+	  
+	  #masthead {
+		margin: 0.25em 0.5em 0.35em 0.5em;
+	}
+	  
 
-  #masthead_right h3 {
-	font-size: 0.7em;
+	#box {
+		margin-top: 0.3em;
+		width: 100%;
+	}
 
-}
-
-#box {
-	margin-top: 0.3em;
-	width: 100%;
-}
-
-h3 {
-	font-size: 1.1em;
-}
+	h3 {
+		font-size: 1.1em;
+	}
 
 
-#gallery, #lessons_left, #lessons_right, #links_left, #links_right, #home_left, #home_right {
-	float: none;
-	width: 100%;
-}
+	#gallery, #lessons_left, #lessons_right, #links_left, #links_right, #home_left, #home_right {
+		float: none;
+		width: 100%;
+	}
 
-#lessons_right, #home_right, #links_right {
-  padding:0;
-}
 
-p {
-	font-size: 0.85em;
-	line-height: 1.4em;
-}
+	p {
+		font-size: 0.85em;
+		line-height: 1.4em;
+	}
 
-li {
-	font-size: 0.9em;
-	line-height: 1.5em;
-}
+	li {
+		font-size: 0.9em;
+		line-height: 1.5em;
+	}
 
-#home_right {
-	visibility: hidden;
-}
-
-#links_collapse_expand {
-	font-size: 0.8em;	
-	margin-bottom: 0.5em;
-	line-height: 1em;
-}
-
-/* Grid Gallery one column only on small screens */
-.grid li { width: 100%; } 
-  
-  
-div#links_right h3 { 
-  	font-size: 1em;
-}
 
 } /* End media queries */
 

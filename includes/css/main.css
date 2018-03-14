@@ -1,0 +1,605 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fd;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+body {
+    font: 16px/26px Helvetica, "Helvetica Neue", Arial ;
+    background: #fffcf5; /* silver */
+    background: #fffef9;
+    
+}
+
+.container {
+	margin: 1em 2em 1em 2em;
+    padding: 0 1em 0 1em;
+}
+
+
+/* A few selectors from bootstrap css included mainly for nice looking badge counts on links page */
+* { box-sizing: border-box; }
+::before, ::after { box-sizing: border-box; }
+.badge { display: inline-block; min-width: 10px; padding: 3px 7px; font-size: 12px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: middle; border-radius: 10px; background-color: rgb(119, 119, 119); }
+.badge:empty { display: none; }
+
+.newlink { display: inline-block; min-width: 10px; padding: 3px 7px; font-size: 12px; font-weight: bold; line-height: 1; color: rgb(255, 255, 255); text-align: center; white-space: nowrap; vertical-align: middle; border-radius: 10px; background-color: rgb(244, 137, 66); }
+.newlink:empty { display: none; }
+
+
+#box, #lessons_left, #home_left, #links_left {
+  float: left;
+  font-weight: 200;
+  width: 95%;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+
+#box p.first {
+	margin-top: 0.75em;
+}
+
+#lessons_right, #home_right, #links_right, #missing_page_right {
+  padding: 20px;
+  overflow:hidden;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+#missing_page_right{
+	float:right;
+}
+
+#links_left {
+	width: 60%;
+}
+
+#box {
+	width: 100%;
+}
+
+
+#links_right {
+	padding: 10px;
+	padding-top: 0;
+}
+
+
+#links_right h3 {
+	font-size: 1.3em;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+
+#links_right a:hover {
+	    text-decoration: none;
+}
+
+#links_collapse_expand {
+	font-size: 1em;	
+	margin-bottom: 0.5em;
+}
+
+#links_collapse_expand a:visited {
+	text-decoration: none;
+}
+
+#links_collapse_expand a {
+	color:#337ab7;
+
+	}
+	
+#links_collapse_expand a:hover	{
+		color:#23527c;
+		text-decoration:underline;
+	}
+
+#links_collapse_expand a:focus	{
+		outline: 0;
+		text-decoration:none;
+	}
+	
+#lessons_left ul {
+	margin: 0;
+	list-style-type: square;
+	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+
+img {
+  max-width: 100%;
+} 
+
+p {
+	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+h3 {
+	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+a 	{
+	color:#337ab7;
+	/* color: #8b837a; */ /* bronze */
+	text-decoration:none;
+	}
+	
+a:focus, a:hover	{
+		color:#23527c;
+		/* color: #514c46; */
+		text-decoration:underline;
+	}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 0.2em;
+    padding: 1em 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav a:hover,
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url(http://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJaH0X__W3S3MJL29bc5CWfs.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff) format('woff');
+}
+
+
+/* Description box in Gallery has rounded corners */
+.gray_box {
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #f7f7f7;
+	border: 1px solid #c1c1c1;
+	padding: 0 12px 0 12px;
+	font-family: "Droid Sans Mono", "Droid Sans", sans-serif;
+	margin-top:1em; 
+	margin-bottom:1.5em;
+	}
+
+
+div.gray_box p {
+	font-family: "Droid Sans Mono", "Droid Sans", sans-serif;
+}
+
+	
+.tab-label {
+	font-family: "Droid Sans", sans-serif;
+}
+	
+
+/* Cross before and after styles for special strikeout in Stagesmith motto */
+.cross {
+    position: relative;
+    display: inline-block;
+}
+.cross::before, .cross::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.cross::before {
+    border-bottom: 4px solid #cc0000;
+    -webkit-transform: skewY(-15deg);
+    transform: skewY(-15deg);
+}
+.cross::after {
+    border-bottom: 4px solid #cc0000;
+    -webkit-transform: skewY(15deg);
+    transform: skewY(15deg);
+}
+
+
+#masthead {
+	/*
+		margin-bottom: 0em;
+	padding-left: 1em;
+	padding-right: 1em;
+	*/
+	margin: 0 2em 0 2em;
+	overflow:hidden;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+.ResGalleryLeft {
+	float: left;
+	text-align: right;
+	width: 50%;
+	padding-right: 5%;
+	border-right: 2px solid black;
+}
+
+.ResGalleryRight {
+	float: left;
+	text-align: left;
+	width: 50%;
+	padding-left: 5%;
+}
+
+#masthead_left{ 
+	float:left; 
+	width: 90%;
+}
+#masthead_right{ 
+	float:right;
+	width: 10%;
+}
+
+#masthead_left h2 {
+	text-align: left;
+	margin-top: 1.5%;
+	margin-bottom: 0%;
+	font-weight: 600;
+	font-size: 2.2em;
+	line-height: 1em;
+	color: #344326;
+}
+
+#masthead_left h3 {
+	margin-top: 0;
+	margin-bottom: 1.5%;
+	margin-left: 3%;
+	text-align: left;
+	font-weight: 600;
+	font-size: 1.8em;
+	color: #768e9d; /* blue grey */
+	color: #8b837a; /* bronze */
+	line-height: 1.1em;
+}
+
+h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-weight: 600;
+	font-size: 1.8em;
+}
+
+#ads_column {
+	float: right; 
+	border: none; 
+	width: 40%; 
+	padding: 10px;
+}
+
+#links_column {
+	float: left; 
+	width: 60%; 
+	padding: 10px;
+}
+
+#ads_column h3 {
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 3px;
+}
+
+#ads_column a:hover {
+	    text-decoration: none;
+}
+
+
+#bio {
+	padding: 10px;	
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #ffffe6;	
+	border: 1px solid #768e9d;
+	padding: 0.5em 0.75em 0.5em 0.75em;
+	margin-top:0; 
+	margin-bottom: 1.4em;
+	line-height: 1.5em;
+}
+
+#bio h3 {
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #000;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+#bio img {
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #ffffe6;	
+	border: 2px solid #768e9d;
+	padding: 0;
+	margin:0 0 10px 10px;
+	width: 7em;
+}
+
+.alignright { float: right; margin: 0 0 1em 1em; display: inline;}
+.alignleft { float: left; margin: 0 1em 1em 0;  display: inline;}
+.alignright { float: right; }
+.alignleft { float: left; }
+
+
+.orange {
+	color: #dd6d00;
+}
+
+#disclosures {
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #f5f5f0; 
+	border: 1px solid #888;
+	padding: 0px 12px 0 12px;
+	font-size: 0.75em;
+	line-height: 1.2em;
+	margin-top:1.5em; 
+	margin-bottom:2em;	
+}
+
+#grid-gallery {
+	margin-top: 0.75em;
+}
+
+figcaption p {
+	line-height: 1.2em;
+}
+
+.companion_image {
+	float: right; 
+	width: 3em;
+}
+
+.badge {
+	font-size: 0.75em;
+}
+
+div#links_right h3 { 
+  	font-size: 1.3em;
+}
+
+
+@media screen and (max-width: 78em) {
+	#masthead {
+		margin-bottom: 1em;
+	}
+	#masthead {
+	margin: 0.25em 1em 0.35em 1em;
+	
+}
+	
+	.companion_image {
+		width: 2.5em;
+	}
+	
+	.container {
+	margin: auto;
+    padding: 0 1.5em 0 1.5em;
+	min-width: 0;
+
+}
+	
+	
+}
+
+
+@media screen and (max-width: 47em) {
+	#home_right {
+		visibility: hidden;
+	}
+	
+	#home_left {
+	float: none;
+	width: 100%;
+	}
+
+	#bio img {
+		width: 5em;
+	}
+		
+}
+
+
+
+@media screen and (max-width: 32em) {
+
+  
+  .container {
+	margin: auto;
+    padding: 0 1em 0 1em;
+	min-width: 0;
+
+}
+  
+  
+  #masthead_left{ 
+	width: 42%;
+}
+  #masthead_right{ 
+	width: 58%;
+}
+  
+  #masthead {
+	margin: 0.25em 0.5em 0.35em 0.5em;
+}
+  
+  img.logo {
+	width: 170px;
+	margin-top:0.15em;
+}
+  
+  #masthead_right h2 {
+	font-size: 1em;
+}
+
+  #masthead_right h3 {
+	font-size: 0.7em;
+
+}
+
+#box {
+	margin-top: 0.3em;
+	width: 100%;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+
+#gallery, #lessons_left, #lessons_right, #links_left, #links_right, #home_left, #home_right {
+	float: none;
+	width: 100%;
+}
+
+#lessons_right, #home_right, #links_right {
+  padding:0;
+}
+
+p {
+	font-size: 0.85em;
+	line-height: 1.4em;
+}
+
+li {
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+#home_right {
+	visibility: hidden;
+}
+
+#links_collapse_expand {
+	font-size: 0.8em;	
+	margin-bottom: 0.5em;
+	line-height: 1em;
+}
+
+/* Grid Gallery one column only on small screens */
+.grid li { width: 100%; } 
+  
+  
+div#links_right h3 { 
+  	font-size: 1em;
+}
+
+} /* End media queries */
+
+
+/* Not sure if I need this but it's supposed to be a good idea for cross-browser consistency */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}

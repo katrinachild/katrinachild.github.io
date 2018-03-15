@@ -234,11 +234,16 @@
 			.mediabox p {
 				margin: 0;
 			}
+
+				.tabs nav {
+	
+			margin-left: 0%;
+		}
 			
 			.tabs nav a {
 
 			font-size: 1em;
-			line-height: 1em;
+			line-height: 1.5em;
 		}
 			
 		}

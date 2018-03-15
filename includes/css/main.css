@@ -62,9 +62,9 @@ body {
     background: #f3f0eb;
     background: orange;
     background: #f7f9f8;     
-   background: #dbf6ff; /* lt blue */  
-    background: #fffef9;
  
+    background: #fffef9;
+   background: #dbf6ff; /* lt blue */  
     /*
     background-image: url(../../flower3.svg);
 	background-repeat: no-repeat;
@@ -316,7 +316,8 @@ h3 {
 
 
 @media screen and (max-width: 78em) {
-	article {
+	
+	article::before {
 		background-size: 7em;
 	}
 
@@ -352,7 +353,7 @@ h3 {
 
 @media screen and (max-width: 47em) {
 	
-	article {
+	article::before {
 		background-size: 4em;
 	}
 
@@ -384,7 +385,7 @@ h3 {
 
 @media screen and (max-width: 32em) {
 
-	article {
+	article::before {
 		background-size: 2em;
 	}
   

@@ -54,6 +54,7 @@ body {
     font: 16px/26px Helvetica, "Helvetica Neue", Arial ;
     background: #fffcf5; /* silver */
     background: #fffef9;
+    background: #f3f0eb;
     
 }
 
@@ -66,7 +67,7 @@ body {
 #box, #lessons_left, #home_left, #links_left {
   float: left;
   font-weight: 200;
-  width: 95%;
+  width: 100%;
   font-size: 18px;
   box-sizing: border-box;
   padding-right: 10px;
@@ -93,10 +94,17 @@ p {
 .section_head {
 	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
 	font-weight: bold;
+	color: #ec3a31;
+	color: #762c21;
+	color: #3f54a2;
 }
 
 .emphasis {
 	font-weight: bold;	
+	color: #514946;
+	color: #000;
+	color: #762c21;
+
 }
 
 h3 {
@@ -193,7 +201,7 @@ aside {
 	
 .tab-label {
 	font-family: "Droid Sans", sans-serif;
-	font-size: 2em;
+	font-size: 1em;
 }
 	
 
@@ -216,11 +224,7 @@ aside {
 
 #masthead_left{ 
 	float:left; 
-	width: 90%;
-}
-#masthead_right{ 
-	float:right;
-	width: 10%;
+	width: 100%;
 }
 
 #masthead_left h2 {
@@ -228,9 +232,12 @@ aside {
 	margin-top: 1.5%;
 	margin-bottom: 0%;
 	font-weight: 600;
-	font-size: 2.2em;
+	font-size: 2.6em;
 	line-height: 1em;
 	color: #344326;
+		color:#545149;
+	color: #4f4744;
+
 }
 
 #masthead_left h3 {
@@ -242,6 +249,7 @@ aside {
 	font-size: 1.8em;
 	color: #768e9d; /* blue grey */
 	color: #8b837a; /* bronze */
+	color: #847916;
 	line-height: 1.1em;
 }
 
@@ -253,17 +261,11 @@ h3 {
 }
 
 
-.alignright { float: right; margin: 0 0 1em 1em; display: inline;}
-.alignleft { float: left; margin: 0 1em 1em 0;  display: inline;}
-.alignright { float: right; }
-.alignleft { float: left; }
-
-
-.orange {
-	color: #dd6d00;
+#textbox {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
 }
-
-
 
 
 @media screen and (max-width: 78em) {
@@ -290,6 +292,14 @@ h3 {
 	min-width: 0;
 
 }
+
+#masthead_left h2 {
+		font-size: 1.5em;
+	}
+
+	#masthead_left h3 {
+		font-size: 1em;
+	}
 	
 	
 }
@@ -312,6 +322,14 @@ h3 {
 	.tab-label {
 		font-family: "Droid Sans", sans-serif;
 		font-size: 1.2em;
+	}
+
+	#masthead_left h2 {
+		font-size: 1.5em;
+	}
+
+	#masthead_left h3 {
+		font-size: 1em;
 	}
 		
 }
@@ -336,6 +354,7 @@ h3 {
 	  
 	  #masthead_left{ 
 		width: 42%;
+
 	}
 	  #masthead_right{ 
 		width: 58%;
@@ -353,6 +372,15 @@ h3 {
 
 	h3 {
 		font-size: 1.1em;
+	}
+
+
+	#masthead_left h2 {
+		font-size: 1.5em;
+	}
+
+	#masthead_left h3 {
+		font-size: 1em;
 	}
 
 

@@ -135,6 +135,7 @@ p {
 .section_head {
 	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
 	font-weight: bold;
+	font-variant: small-caps;
 	color: #ec3a31;
 	color: #762c21;
 	color: #3f54a2;

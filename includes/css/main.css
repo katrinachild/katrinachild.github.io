@@ -63,9 +63,9 @@ body {
     background: orange;
     background: #f7f9f8;     
  
-     background: #fffef9;
-   background: #dbf6ff; /* lt blue */  
 
+   background: #dbf6ff; /* lt blue */  
+     background: #fffef9;
 
     /*
     background-image: url(../../flower3.svg);
@@ -373,7 +373,7 @@ h3 {
 	}
 
 	#masthead_left h2 {
-		font-size: 1.7em;
+		font-size: 1.9em;
 	}
 
 	#masthead_left h3 {
@@ -413,7 +413,7 @@ h3 {
 
 
 	#masthead_left h2 {
-		font-size: 1.4em;
+		font-size: 1.5em;
 	}
 
 	#masthead_left h3 {

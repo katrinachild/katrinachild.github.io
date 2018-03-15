@@ -61,6 +61,7 @@ body {
     background: orange;
     background: #dbf6ff; /* lt blue */
     background: #f7f9f8;  
+        background: orange;
     
 }
 
@@ -207,9 +208,11 @@ aside {
 	
 .tab-label {
 	font-family: "Droid Sans", sans-serif;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-family: 'Ubuntu Condensed', sans-serif;
+
+
 	font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;	
+	font-family: 'Roboto Condensed', sans-serif;	
 	font-size: 1em;
 }
 	

@@ -194,7 +194,10 @@
 			}
 		}
 
-		@media screen and (max-width: 32em) {
+/*
+	@media screen and (max-width: 32em) {
+*/
+		@media screen and (max-width: 45em) {
 			.tabs nav ul,
 			.tabs nav ul li a {
 				width: 100%;

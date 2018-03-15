@@ -64,10 +64,11 @@ body {
             background: #dbf6ff; /* lt blue */
 
 
-    background-image: url(../../flower1.svg);
+    background-image: url(../../flower3.svg);
 	background-repeat: no-repeat;
 	/*background-size: 253px 231px;*/
-	background-position: right 1px top 1px;
+	background-size: 12em;
+	background-position: right 20px top 10px;
 
 
 
@@ -359,11 +360,15 @@ h3 {
 
 @media screen and (max-width: 32em) {
 
+	body {
+		background-size: 6em;
+	}
   
 	  .container {
 		margin: auto;
 	    padding: 0 1em 0 1em;
 		min-width: 0;
+}
 
 	}
 	 

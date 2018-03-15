@@ -63,9 +63,10 @@ body {
 
     background: orange;      
      background: #f7f9f8;     
-    background: #fffef9;
+
 
     background: #dbf6ff; /* lt blue */
+        background: #fffef9;
 
 }
 
@@ -217,9 +218,6 @@ aside {
 
 font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'Fira Sans Extra Condensed', sans-serif;
-
-	
-	font-size: 1em;
 }
 	
 
@@ -292,11 +290,6 @@ h3 {
 	}
 	#masthead {
 	margin: 0.25em 1em 0.35em 1em;
-
-	.tab-label {
-		font-size: 1.5em;
-	}
-	
 }
 	
 	.companion_image {
@@ -336,10 +329,6 @@ h3 {
 		width: 5em;
 	}
 
-	.tab-label {
-		font-size: 1.2em;
-	}
-
 	#masthead_left h2 {
 		font-size: 1.5em;
 	}
@@ -354,10 +343,6 @@ h3 {
 
 @media screen and (max-width: 32em) {
 
-
-	.tab-label {
-		font-size: 1em;
-	}
   
 	  .container {
 		margin: auto;

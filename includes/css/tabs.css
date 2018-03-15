@@ -149,6 +149,10 @@
 		}
 
 
+		.tab-label {
+			font-size: 1em;
+		}
+
 
 		@media screen and (max-width: 52.375em) {
 			.tabs nav a span {
@@ -242,10 +246,12 @@
 			}
 			
 			.tabs nav a {
+			}
 
-			font-size: 1.1em;
-			line-height: 2.2em;
-		}
+			.tab-label {
+				font-size: 1em;
+				line-height: 2.2em;
+			}
 			
 		}
 

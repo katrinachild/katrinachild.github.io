@@ -208,7 +208,7 @@
 				width: 25%;
 				width: calc(25% + 1px);
 				width: calc(28%);
-				margin: 0 0 0 -1px;
+				/* margin: 0 0 0 -1px; */
 			}
 
 
@@ -237,13 +237,13 @@
 
 				.tabs nav {
 	
-			margin-left: 1%;
+			margin-left: 2%;
 		}
 			
 			.tabs nav a {
 
 			font-size: 1em;
-			line-height: 2em;
+			line-height: 3em;
 		}
 			
 		}

@@ -60,10 +60,17 @@ body {
     background: #f3f0eb;
     background: orange;
      background: #f7f9f8;     
-
-
+             background: #fffef9;
             background: #dbf6ff; /* lt blue */
-        background: #fffef9;
+
+
+    background-image: url(../../flower1.svg);
+	background-repeat: no-repeat;
+	/*background-size: 253px 231px;*/
+	background-position: right 1px top 1px;
+
+
+
 
   /*      background: orange;      */  
 
@@ -119,7 +126,6 @@ p {
 	color: #000;
 	color: #ed3b32;
 	color: #4f4744;
-	font-size: larger;
 
 }
 
@@ -244,7 +250,12 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 
 #masthead_left{ 
 	float:left; 
-	width: 100%;
+	width: 75%;
+}
+
+#masthead_right{ 
+	float:left; 
+	width: 25%;
 }
 
 #masthead_left h2 {

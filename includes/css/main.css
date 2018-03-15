@@ -62,9 +62,9 @@ body {
      background: #f7f9f8;     
 
 
-            background: #dbf6ff; /* lt blue */
-        background: #fffef9;
 
+        background: #fffef9;
+            background: #dbf6ff; /* lt blue */
   /*      background: orange;      */  
 
 }
@@ -337,7 +337,8 @@ h3 {
 	}
 
 	#masthead_left h3 {
-		font-size: 1em;
+		font-size: 1.2em;
+		margin-bottom: 2%;
 	}
 		
 }
@@ -371,7 +372,7 @@ h3 {
 
 
 	#masthead_left h2 {
-		font-size: 1.em;
+		font-size: 1.4em;
 	}
 
 	#masthead_left h3 {

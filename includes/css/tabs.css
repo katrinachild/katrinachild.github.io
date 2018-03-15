@@ -246,11 +246,12 @@
 			}
 			
 			.tabs nav a {
+				line-height: 1.5em;
 			}
 
 			.tab-label {
 				font-size: 0.75em;
-				line-height: 1.5em;
+	
 			}
 			
 		}

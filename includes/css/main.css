@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Roboto+Condensed|Ubuntu+Condensed');
+
 html {
     color: #222;
     font-size: 1em;
@@ -204,6 +207,9 @@ aside {
 	
 .tab-label {
 	font-family: "Droid Sans", sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
 	font-size: 1em;
 }
 	

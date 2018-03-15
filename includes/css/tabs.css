@@ -207,7 +207,7 @@
 			.tabs nav ul li {
 				width: 25%;
 				width: calc(25% + 1px);
-				width: 28%;
+				width: 29%;
 				/* margin: 0 0 0 -1px; */
 			}
 
@@ -244,8 +244,8 @@
 			
 			.tabs nav a {
 
-			font-size: 1em;
-			line-height: 3em;
+			font-size: 1.1em;
+			line-height: 2.2em;
 		}
 			
 		}

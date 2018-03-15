@@ -62,9 +62,9 @@ body {
      background: #f7f9f8;     
 
 
-
-        background: #fffef9;
             background: #dbf6ff; /* lt blue */
+        background: #fffef9;
+
   /*      background: orange;      */  
 
 }
@@ -118,7 +118,8 @@ p {
 	color: #762c21;
 	color: #000;
 	color: #ed3b32;
-ps
+	color: #4f4744;
+	font-size: larger;
 
 }
 

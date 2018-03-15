@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Roboto+Condensed|Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed|Fira+Sans+Condensed|Fira+Sans+Extra+Condensed|PT+Sans+Narrow|Roboto+Condensed|Stint+Ultra+Condensed|Ubuntu+Condensed');
 
 html {
     color: #222;
@@ -61,11 +61,11 @@ body {
     background: orange;
 
 
-    background: orange;      background: #dbf6ff; /* lt blue */
+    background: orange;      
      background: #f7f9f8;     
     background: #fffef9;
         background: orange;
-    
+    background: #dbf6ff; /* lt blue */
 }
 
 .container {
@@ -211,12 +211,13 @@ aside {
 	
 .tab-label {
 	font-family: "Droid Sans", sans-serif;
-
-
-
-
 	font-family: 'Roboto Condensed', sans-serif;	
-		font-family: 'Fira Sans Condensed', sans-serif;
+	font-family: 'Fira Sans Condensed', sans-serif;
+
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;		
 	
 	font-size: 1em;
 }

@@ -331,13 +331,12 @@ nav a:hover {
 	}
 
 	#footer_text {
-    display: none;
+    	display: none;
+	}
 
     article::before {
-    	opacity: 0; 
+    	display: none; 
     }
-}
-
 
 } /* End media queries */
 

@@ -269,10 +269,6 @@ nav a:hover {
 
 @media screen and (max-width: 47em) {
 	
-	article::before {
-		background-size: 7em;
-	}
-
 
 	#masthead h2 {
 		font-size: 1.9em;
@@ -293,22 +289,17 @@ nav a:hover {
 	}
 
 	/* position background image */
-   	/*
    	article::before {
-		background-size: 16em;
-		background-position: right 25px top 10px;
+		background-size: 6em;
+		background-position: right 5px top 10px;
     }
-	*/
+	
 		
 }
 
 
 
 @media screen and (max-width: 32em) {
-
-	article::before {
-		background-size: 5em;
-	}
   
 	  .container {
 		margin: auto;

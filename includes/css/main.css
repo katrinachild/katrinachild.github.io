@@ -291,6 +291,13 @@ nav a:hover {
 		font-size: 0.9em;
 		line-height: 1.4em;
 	}
+
+	/* position background image */
+   	article::before {
+    	background-size: 14em;
+  		background-position: right 5px top 10px;
+    }
+
 		
 }
 
@@ -347,6 +354,7 @@ nav a:hover {
     	display: none;
 	}
 
+	/* hide background image on tiny screens */
     article::before {
     	opacity: 0; 
     }

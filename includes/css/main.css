@@ -116,11 +116,10 @@ article::before {
   font-size: 18px;
   box-sizing: border-box;
   padding-right: 10px;
-
 }
 
 #box p.first {
-	/* margin-top: 0.75em; */
+	/* padding-top: 0; */
 }
 
 
@@ -143,14 +142,12 @@ p {
 	font-weight: bold;
 	font-variant: small-caps;
 	color: #e9372d;
-
 }
 
 .emphasis {
 	font-weight: bold;	
 	color: #4f4744;
 }
-
 
 a 	{
 	color:#337ab7;
@@ -264,8 +261,7 @@ nav a:hover {
 
 	#masthead .abbrevs {
 	font-size: 0.6em;
-}
-	
+	}
 	
 }
 
@@ -309,6 +305,7 @@ nav a:hover {
 
 	#box {
 		margin-top: 0.3em;
+		margin-top: 0;
 		width: 100%;
 	}
 

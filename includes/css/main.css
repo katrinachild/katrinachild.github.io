@@ -329,6 +329,10 @@ nav a:hover {
 		line-height: 1.5em;
 	}
 
+	#footer_text {
+    display: none;
+}
+
 
 } /* End media queries */
 

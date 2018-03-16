@@ -294,8 +294,8 @@ nav a:hover {
 
 	/* position background image */
    	article::before {
-    	background-size: 14em;
-  		background-position: right 5px top 10px;
+		background-size: 16em;
+		background-position: right 25px top 10px;
     }
 
 		

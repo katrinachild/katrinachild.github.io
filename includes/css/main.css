@@ -275,12 +275,16 @@ nav a:hover {
 
 
 	#masthead h2 {
-		font-size: 2.2em;
+		font-size: 2.1em;
 	}
 
 	#masthead h3 {
-		font-size: 1.7em;
+		font-size: 1.5em;
 		margin-bottom: 2%;
+	}
+
+	#masthead .abbrevs {
+	font-size: 0.4em;
 	}
 		
 }
@@ -320,6 +324,10 @@ nav a:hover {
 		margin-bottom: 2%;
 	}
 
+	#masthead .abbrevs {
+	font-size: 0.3em;
+	}
+
 	p {
 		font-size: 0.85em;
 		line-height: 1.4em;
@@ -335,7 +343,7 @@ nav a:hover {
 	}
 
     article::before {
-    	display: none; 
+    	opacity: 0; 
     }
 
 } /* End media queries */

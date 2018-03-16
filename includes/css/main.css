@@ -293,11 +293,12 @@ nav a:hover {
 	}
 
 	/* position background image */
+   	/*
    	article::before {
 		background-size: 16em;
 		background-position: right 25px top 10px;
     }
-
+	*/
 		
 }
 

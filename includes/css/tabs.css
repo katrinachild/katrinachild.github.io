@@ -200,6 +200,22 @@
 			}
 
 		*/
+
+
+
+			.tabs nav {
+				margin-left: 1.5%;
+			}
+			
+			.tabs nav a {
+				font-size: 1.5em;
+				line-height: 1.1em;
+				padding: 0 0.7em; 
+			}
+
+			.tab-label {
+				font-size: 0.85em;
+			}
 			
 		}
 
@@ -254,14 +270,13 @@
 			}
 			
 			.tabs nav a {
-				font-size: 1.45em;
-				line-height: 1.2em;
+				font-size: 1.5em;
+				line-height: 1.1em;
 				padding: 0 0.7em; 
 			}
 
 			.tab-label {
-				font-size: 0.75em;
-	
+				font-size: 0.85em;
 			}
 			
 		}

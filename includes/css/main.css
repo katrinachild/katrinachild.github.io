@@ -275,11 +275,11 @@ nav a:hover {
 
 
 	#masthead_left h2 {
-		font-size: 1.9em;
+		font-size: 2.1em;
 	}
 
 	#masthead_left h3 {
-		font-size: 1.3em;
+		font-size: 1.5em;
 		margin-bottom: 2%;
 	}
 		
@@ -332,6 +332,10 @@ nav a:hover {
 
 	#footer_text {
     display: none;
+
+    article::before {
+    	display: none;
+    }
 }
 
 

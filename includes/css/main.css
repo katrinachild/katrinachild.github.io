@@ -22,6 +22,9 @@ html {
     line-height: 1.4;
 }
 
+
+/*
+
 ::-moz-selection {
     background: #b3d4fd;
     text-shadow: none;
@@ -31,6 +34,7 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
+
 
 hr {
     display: block;
@@ -56,6 +60,8 @@ fieldset {
     padding: 0;
 }
 
+*/
+
 textarea {
     resize: vertical;
 }
@@ -75,7 +81,7 @@ body {
 }
 
 
-/* container for background artwork */
+/* vehicle for background artwork */
 
 article {
   position: relative;
@@ -93,15 +99,13 @@ article::before {
   z-index: -1;
   background: url(../img/flower.svg);
   background-repeat: no-repeat;
-background-size: 16em;
-background-position: right 25px top 10px;
+  background-size: 16em;
+  background-position: right 25px top 10px;
 }
-
 
 .container {
 	/*margin: 1em 2em 1em 2em;*/
     padding: 0 1em 0 2em;
-
 }
 
 
@@ -112,6 +116,7 @@ background-position: right 25px top 10px;
   font-size: 18px;
   box-sizing: border-box;
   padding-right: 10px;
+
 }
 
 #box p.first {
@@ -203,30 +208,30 @@ nav a:hover {
 #masthead h2 {
 	text-align: left;
 	margin-top: 1.5%;
-	margin-bottom: 0%;
+	margin-bottom: 0;
 	font-weight: 600;
 	font-size: 2.9em;
-	line-height: 1em;
+	line-height: 0.9em;
 	color: #4f4744;
 }
 
 #masthead h3 {
 	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
 	margin-top: 0;
-	margin-bottom: 1.5%;
+	margin-bottom: 2%;
 	margin-left: 3%;
 	text-align: left;
 	font-weight: 600;
 	font-size: 2em;
 	color: #8f9563; /* moss green */
-	line-height: 1.1em;
+	line-height: 0.8em;
 }
 
 #masthead .abbrevs {
 	font-size: 0.5em;
 }
 
-#textbox {
+#footer_text {
     display: flex;
     justify-content: space-between;
     padding-right: 20px;

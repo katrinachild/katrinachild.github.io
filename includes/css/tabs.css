@@ -61,8 +61,8 @@
 			color: #8b837a; /* bronze */
 			display: block;
 			font-size: 1.45em;
-			line-height: 2.5;
-			padding: 0 1.25em;
+			line-height: 2;
+			padding: 0 1em; 
 			white-space: nowrap;
 		}
 

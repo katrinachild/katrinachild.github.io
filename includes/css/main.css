@@ -1,7 +1,20 @@
 
 
-/* REMOVE UNUSED FAMILIES FROM THIS LIST */
-@import url('https://fonts.googleapis.com/css?family=Asap+Condensed|Fira+Sans+Condensed|Fira+Sans+Extra+Condensed|PT+Sans+Narrow|Roboto+Condensed|Stint+Ultra+Condensed|Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff) format('woff');
+}
 
 html {
     color: #222;
@@ -58,28 +71,11 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, "Helvetica Neue", Arial ;
-    background: #fffcf5; /* silver */
-    background: #fffef9;
-    background: #f3f0eb;
-    background: orange;
-    background: #f7f9f8;     
- 
-
-   background: #dbf6ff; /* lt blue */  
-     background: #fffef9;
-
-    /*
-    background-image: url(../../flower3.svg);
-	background-repeat: no-repeat;
-	background-size: 12em;
-	background-position: right 20px top 10px;
-	*/
+	background: #fffef9;
 }
 
 
-
-
-/* article contains flower image only */
+/* container for background artwork */
 
 article {
   position: relative;
@@ -93,7 +89,7 @@ article::before {
   height: 100%;  
   opacity: .4; 
   z-index: -1;
-  background: url(../../flower6.svg);
+  background: url(../img/flower.svg);
   background-repeat: no-repeat;
 background-size: 16em;
 background-position: right 25px top 10px;
@@ -139,43 +135,23 @@ p {
 	font-size: 1.2em;
 	font-weight: bold;
 	font-variant: small-caps;
-	color: #ec3a31;
-	color: #762c21;
-	color: #3f54a2;
-	color: #000;
-		color: #ed3b32;
-		color: #e9372d;
+	color: #e9372d;
 
 }
 
 .emphasis {
 	font-weight: bold;	
-	color: #514946;
-	color: #000;
-	color: #762c21;
-	color: #000;
-	color: #ed3b32;
 	color: #4f4744;
-
 }
-
-
-/*
-h3 {
-	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
-}
-*/
 
 
 a 	{
 	color:#337ab7;
-	/* color: #8b837a; */ /* bronze */
 	text-decoration:none;
 	}
 	
 a:focus, a:hover	{
 		color:#23527c;
-		/* color: #514c46; */
 		text-decoration:underline;
 	}
 
@@ -206,106 +182,33 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/*
-.main {
-    padding: 0;
-}
-
-.main article h1 {
-    font-size: 2em;
-}
-
-aside {
-    color: white;
-    padding: 0px 5% 10px;
-}
-
-.footer-container footer {
-    color: white;
-    padding: 20px 0;
-}
-
-*/
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
 
 .ie7 .title {
     padding-top: 20px;
 }
 
-
-@font-face {
-  font-family: 'Droid Sans Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Droid Sans Mono'), local('DroidSansMono'), url(http://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJaH0X__W3S3MJL29bc5CWfs.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Droid Sans'), local('DroidSans'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Droid Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMXbFhgvWbfSbdVg11QabG8w.woff) format('woff');
-}
-
-
-	
 .tab-label {
-	font-family: "Droid Sans", sans-serif;
-	font-family: 'Roboto Condensed', sans-serif;	
-	font-family: 'Fira Sans Condensed', sans-serif;
-
-font-family: 'PT Sans Narrow', sans-serif;
-font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 	
-
-
 #masthead {
-	/*
-		margin-bottom: 0em;
-	padding-left: 1em;
-	padding-right: 1em;
-	*/
 	margin: 0 2em 0 2em;
 	overflow:hidden;
-}
-
-.logo {
-	margin-top: 10px;
-}
-
-
-
-#masthead_left{ 
 	float:left; 
 	width: 100%;
-
 }
 
-#masthead_left h2 {
+#masthead h2 {
 	text-align: left;
 	margin-top: 1.5%;
 	margin-bottom: 0%;
 	font-weight: 600;
-	font-size: 2.8em;
+	font-size: 2.9em;
 	line-height: 1em;
-	color: #344326;
-		color:#545149;
 	color: #4f4744;
-
-
 }
 
-#masthead_left h3 {
+#masthead h3 {
 	font-family: "Droid Sans", Arial, Helvetica, "Helvetica Neue", sans-serif;
 	margin-top: 0;
 	margin-bottom: 1.5%;
@@ -313,22 +216,13 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 	text-align: left;
 	font-weight: 600;
 	font-size: 2em;
-	color: #768e9d; /* blue grey */
-	color: #8b837a; /* bronze */
-	color: #847916;
-	color: #8e9462; /* moss green */
 	color: #8f9563; /* moss green */
 	line-height: 1.1em;
 }
 
-/*
-h3 {
-	margin-top: 0.5em;
-	margin-bottom: 0.2em;
-	font-weight: 600;
-	font-size: 1.8em;
+#masthead .abbrevs {
+	font-size: 0.5em;
 }
-*/
 
 #textbox {
     display: flex;
@@ -344,18 +238,8 @@ h3 {
 	}
 
 	#masthead {
-		margin-bottom: 1em;
+		margin: 0.25em 1em 0.35em 1em;
 	}
-
-	#masthead {
-	margin: 0.25em 1em 0.35em 1em;
-}
-
-/*	
-	.companion_image {
-		width: 2.5em;
-	}
-*/
 
 	.container {
 	margin: auto;
@@ -363,13 +247,17 @@ h3 {
 	min-width: 0;
 	}
 
-	#masthead_left h2 {
+	#masthead h2 {
 		font-size: 1.5em;
 	}
 
-	#masthead_left h3 {
+	#masthead h3 {
 		font-size: 1em;
 	}
+
+	#masthead .abbrevs {
+	font-size: 0.6em;
+}
 	
 	
 }
@@ -381,20 +269,6 @@ h3 {
 		background-size: 7em;
 	}
 
-	/*
-	#home_right {
-		visibility: hidden;
-	}
-	
-	#home_left {
-	float: none;
-	width: 100%;
-	}
-
-	#bio img {
-		width: 5em;
-	}
-*/
 
 	#masthead_left h2 {
 		font-size: 1.9em;
@@ -431,11 +305,6 @@ h3 {
 		width: 100%;
 	}
 
-/*
-	h3 {
-		font-size: 1.1em;
-	}
-*/
 
 	#masthead_left h2 {
 		font-size: 1.5em;
@@ -445,13 +314,6 @@ h3 {
 		font-size: 1em;
 		margin-bottom: 2%;
 	}
-
-/*
-	#gallery, #lessons_left, #lessons_right, #links_left, #links_right, #home_left, #home_right {
-		float: none;
-		width: 100%;
-	}
-*/
 
 	p {
 		font-size: 0.85em;

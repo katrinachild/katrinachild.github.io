@@ -93,9 +93,9 @@ article::before {
   height: 100%;  
   opacity: .4; 
   z-index: -1;
-  background: url(../../flower3.svg);
+  background: url(../../flower6.svg);
   background-repeat: no-repeat;
-background-size: 12em;
+background-size: 16em;
 background-position: right 25px top 10px;
 }
 
@@ -296,7 +296,7 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 	margin-top: 1.5%;
 	margin-bottom: 0%;
 	font-weight: 600;
-	font-size: 2.6em;
+	font-size: 2.8em;
 	line-height: 1em;
 	color: #344326;
 		color:#545149;
@@ -312,7 +312,7 @@ font-family: 'Fira Sans Extra Condensed', sans-serif;
 	margin-left: 3%;
 	text-align: left;
 	font-weight: 600;
-	font-size: 1.8em;
+	font-size: 2em;
 	color: #768e9d; /* blue grey */
 	color: #8b837a; /* bronze */
 	color: #847916;

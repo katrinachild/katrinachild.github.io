@@ -100,7 +100,7 @@ article::before {
   z-index: -1;
   background: url(../img/flower.svg);
   background-repeat: no-repeat;
-  background-size: 16em;
+  background-size: 14em;
   background-position: right 25px top 10px;
 }
 
@@ -240,7 +240,7 @@ nav a:hover {
 @media screen and (max-width: 78em) {
 
 	article::before {
-		background-size: 13em;
+		background-size: 11em;
 	}
 
 	#masthead {
@@ -293,7 +293,7 @@ nav a:hover {
 
 	/* position background image */
    	article::before {
-		background-size: 8em;
+		background-size: 7.5em;
 		background-position: right 5px top 10px;
     }
 	

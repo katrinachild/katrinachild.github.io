@@ -240,7 +240,7 @@ nav a:hover {
 @media screen and (max-width: 78em) {
 
 	article::before {
-		background-size: 9em;
+		background-size: 13em;
 	}
 
 	#masthead {
@@ -293,7 +293,7 @@ nav a:hover {
 
 	/* position background image */
    	article::before {
-		background-size: 6em;
+		background-size: 8em;
 		background-position: right 5px top 10px;
     }
 	

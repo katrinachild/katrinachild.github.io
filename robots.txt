@@ -1,5 +1,0 @@
-# www.robotstxt.org/
-
-# go away
-User-agent: *
-Disallow: /
